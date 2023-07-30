@@ -6,4 +6,5 @@ class CreateCouseService {
         console.log(name, duration, instructor);
     }
 }
-exports.default = new CreateCouseService();
+const _default = new CreateCouseService();
+export { _default as default };
